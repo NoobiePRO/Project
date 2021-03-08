@@ -3,6 +3,10 @@
 }
 body{
     color: #4B5563;
+    margin:0px;
+}
+.container-center{
+    text-align: center;
 }
 .link{
     text-decoration: none;
@@ -113,10 +117,11 @@ section{
 }
 .footer ul{
     text-align: center;
+    padding-inline-start: 0px;
 }
 
 .footer a{
-    padding: 2 rem;
+    padding: 2rem;
     
     color:white;
 }
@@ -127,3 +132,6 @@ section{
     border-top-right-radius: 1rem;
 }
 
+.spaces{
+    padding-bottom: 3rem;
+}
