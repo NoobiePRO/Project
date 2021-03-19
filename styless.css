@@ -27,14 +27,18 @@ body{
     border-bottom-left-radius: 1rem;
     color: aliceblue;
 }
+.nav .link:hover{
+   
+    s
 
+}
 .nav .link{
     color: aliceblue;
     text-align: right;
     padding-top: 0.2rem;
     padding-right: 2rem;
     padding-bottom: 0.2rem;
-    font-size: 18px;
+    font-size: 18px
 }
 
 .nav-pills{
@@ -82,10 +86,11 @@ section{
 
 .Link-primary{
     text-decoration: none;
-    color: var(--primary-color);
-    font-weight: bolder;
+    margin:0px;
+    padding: 0px;
     /* text-shadow:coral; */
 }
+
 
 .Link-secondary{
     text-decoration: none;
@@ -93,6 +98,14 @@ section{
     padding: 0.3rem 0.5rem;
     color: white;
     border-radius: 0.5rem;
+}
+
+.Link-secondary:hover{
+    
+}
+
+.Link-tertiary:hover{
+    
 }
 
 .Link-tertiary{
@@ -121,12 +134,12 @@ section{
 }
 
 .footer a{
-    padding: 2rem;
+    padding: 0.5rem;
     
     color:white;
 }
 .footer{
-    background-color: var(--primary-color);
+    background-color: var(--primary-color); 
     color:white;
     padding-bottom: 1rem;
     border-top-right-radius: 1rem;
@@ -139,3 +152,4 @@ section{
 .favicons{
     size: 50%;
 }
+
